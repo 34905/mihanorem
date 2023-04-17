@@ -137,10 +137,6 @@ body{
         display: none;
     }
 
-    .card--third{
-        grid-row:1 / 6;
-        grid-column: 1 / 5;
-    }
 
     .card--fourth{
         display: none;
@@ -153,4 +149,10 @@ body{
     .card--sixth{
         display: none;
     }
+
+    .card--third{
+        grid-row:1 / 6;
+        grid-column: 1 / 5;
+    }
+
 }
