@@ -130,29 +130,28 @@ body{
     }
 
     .card--first{
-        display: none;
+        display: none !important;
     }
     
     .card--second{
-        display: none;
-    }
-
-
-    .card--fourth{
-        display: none;
-    }
-
-    .card--fifth{
-        display: none;
-    }
-
-    .card--sixth{
-        display: none;
+        display: none!important;
     }
 
     .card--third{
         grid-row:1 / 6;
         grid-column: 1 / 5;
+    }
+
+    .card--fourth{
+        display: none!important;
+    }
+
+    .card--fifth{
+        display: none!important;
+    }
+
+    .card--sixth{
+        display: none!important;
     }
 
 }
