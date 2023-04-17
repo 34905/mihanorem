@@ -154,27 +154,23 @@ body{
     }
 
     .card--first{
-        grid-row: 10 / 13 ;
-        grid-column:1 / 13  ;
+        display: none;
     }
 
     .card--third{
-        grid-row:1 / 6;
-        grid-column: 1 / 5;
+        grid-row:1 / 13;
+        grid-column: 1 / 13;
     }
 
     .card--fourth{
-        grid-row: 1 / 5;
-        grid-column: 5 / 13;
+        display: none;
     }
 
     .card--fifth{
-        grid-row: 5 / 10;
-        grid-column: 6 / 13;
+        display: none;
     }
 
     .card--sixth{
-        grid-row: 6 / 10;
-        grid-column: 1 / 6;
+        display: none;
     }
 }
