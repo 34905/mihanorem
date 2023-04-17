@@ -130,24 +130,24 @@ body{
     }
 
     .card--first{
-        display: none !important;
+        display: none ;
     }
     
     .card--second{
-        display: none!important;
+        display: none;
     }
 
     .card--third{
-        grid-row:1 / 6;
-        grid-column: 1 / 5;
+        grid-row:1 / 13;
+        grid-column: 1 / 13;
     }
 
     .card--fourth{
-        display: none!important;
+        display: none;
     }
 
     .card--fifth{
-        display: none!important;
+        display: none;
     }
 
     .card--sixth{
