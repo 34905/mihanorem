@@ -120,27 +120,7 @@ body{
 /*in een media query is 1 rem altijd een user zijn fontsize */
 @media screen and (max-width:87.5rem){
     .card--second{
-        grid-row: 1 / 13;
-    }
-
-    .card--third{
-        grid-column: 1 / 5;
-        
-    }
-}
-
-@media screen and (max-width: 62.5rem) {
-    body{
-        background:#4f1468;
-    }
-
-    .card--first, .card--second{
-        display: none;
-    }
-
-    .card--third{
-        grid-row:1 / 13;
-        grid-column: 1 / 13;
+        grid-row: 1 / 8;
     }
 }
 
@@ -158,7 +138,7 @@ body{
     }
 
     .card--third{
-        grid-row:1 / 13;
+        grid-row:1 / 12;
         grid-column: 1 / 13;
     }
 
